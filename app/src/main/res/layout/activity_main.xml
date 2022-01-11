@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+
+        android:text="@string/m_y_t_nh_b_t_i" />
+
+    <EditText
+        android:id="@+id/etNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nh_p_s_th_nh_t"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nh_p_v_o_s_th_2"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tvketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/textview" />
+
+    <Button
+        android:id="@+id/btnCong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c_ng" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tru" />
+</LinearLayout>
