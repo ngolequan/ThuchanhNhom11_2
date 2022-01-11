@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
             var so2: Double = (etNumber2.text.toString()).toDouble()
             val ketqua: Double = so1 + so2
             tvketqua.text = ketqua.toString()
+            println("xin chao")
         }
     }
 }
